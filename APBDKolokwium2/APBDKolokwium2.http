@@ -1,0 +1,6 @@
+@APBDKolokwium2_HostAddress = http://localhost:5063
+
+GET {{APBDKolokwium2_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
