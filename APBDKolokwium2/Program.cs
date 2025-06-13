@@ -16,7 +16,7 @@ builder.Services.AddDbContext<DatabaseContext>(options =>
 
 // Wstrzykiwanie zależności
 // https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection
-builder.Services.AddScoped<IService,Service>();
+builder.Services.AddScoped<INurseryService,NurseryService>();
 
 var app = builder.Build();
 
